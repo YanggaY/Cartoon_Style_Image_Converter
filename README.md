@@ -10,6 +10,8 @@ Cartoon Image Rendering using OpenCv
  -> bilateral filter를 사용하여 색상 단순화
  -> 윤곽선(Edges)을 색상 이미지위에 덮어씌워서 만화스타일 이미지 생성
 
+### Input
+![input](demo_image1.png)
 
 
 
