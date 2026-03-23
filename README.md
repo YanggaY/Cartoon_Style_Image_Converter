@@ -11,7 +11,9 @@ Cartoon Image Rendering using OpenCv
  -> 윤곽선(Edges)을 색상 이미지위에 덮어씌워서 만화스타일 이미지 생성
 
 ### Input
-![input](demo_image1.png)
+![input](demo_image1.jpg)
+
+
 
 
 
