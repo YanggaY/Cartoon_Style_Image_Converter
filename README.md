@@ -1,4 +1,4 @@
-Cartoon Image Rendering using OpenCv
+### Cartoon Image Rendering using OpenCv
 
 이 프로그램은 원본 이미지를 OpenCv를 이용해서 만화스타일의 이미지로 변환합니다.
 
@@ -10,14 +10,14 @@ Cartoon Image Rendering using OpenCv
  -> bilateral filter를 사용하여 색상 단순화
  -> 윤곽선(Edges)을 색상 이미지위에 덮어씌워서 만화스타일 이미지 생성
 
-###Successful Case
+### Successful Case
 ![input](demo_image.jpg)
 
-###Poorly Processed Result
+### Poorly Processed Result
 ![input](demo_image2.jpg)
 
 
-###한계점
+### 한계점
 -Canny edge dector로 윤곽선을 찾아내는 과정에서 한계가 느껴졌다. 
 -이미지를 지역적으로 봤을때 Gradient값이 적은 부분의 윤곽선을 추출하는데 있어서 웬만한 변화가 있지않으면 edge를 검출하지 못하는 문제가 있다.
 -그런 부분까지 검출하기위해 Canny edge dector의 threshold값들을 조정하면 노이즈까지 edge로 인식되는 문제가 있다. 
